@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView1l"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="20dp"
+        android:width="10dp"
+        android:text="@string/textviewt"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1l"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="43dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/indian"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView2l"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="88dp"
+        android:text="@string/textviews"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="311dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/usernamea"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:ignore="LabelFor,RelativeOverlap,SpeakableTextPresentCheck"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etPasswordl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="186dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:text="@string/password"
+        android:textColor="#FFFFFF"
+        tools:ignore="HardcodedText,LabelFor,RelativeOverlap,SpeakableTextPresentCheck"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginBottom="87dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/sign_up"
+        android:textColor="#575CE5"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginBottom="64dp"
+        android:text="@string/textviewac"
+        android:textColor="#2355CE" />
+
+    <Button
+        android:id="@+id/loginButtonl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/login"
+        android:textColor="#575CE5"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/textView7l"
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="57dp"
+        android:text="@string/textview"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/etUserNamel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/namet"
+        android:textColor="#FFFFFF"
+        android:autofillHints=""
+        tools:ignore="LabelFor,RelativeOverlap" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="251dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="@string/e_mailt"
+        android:textColor="#FFFFFF"
+        tools:ignore="LabelFor,RelativeOverlap,TextFields" />
+
+</RelativeLayout>
